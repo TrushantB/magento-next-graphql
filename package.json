@@ -2,7 +2,7 @@
   "name": "magento-nextjs-starter",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Carlos A. Cabrera @fnhipster",
+  "author": "Trushant",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",

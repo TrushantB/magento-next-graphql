@@ -9,7 +9,7 @@ query App {
     copyright
   }
 
-  categoryList {
+  category(id:2) {
     id
     children {
       id

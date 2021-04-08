@@ -14,7 +14,7 @@ export const App = ({ children }) => {
 
   const categoryUrlSuffix = store?.category_url_suffix ?? ''
 
-  const categories = data?.categoryList[0].children
+  const categories = data?.category.children
 
   return (
     <React.Fragment>

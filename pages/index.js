@@ -15,10 +15,10 @@ export const getStaticProps = async () => {
     query: APP_QUERY,
   })
 
-  await apolloClient.query({
-    query: PRODUCTS_QUERY,
-    variables: { search: '' },
-  })
+  // await apolloClient.query({
+  //   query: PRODUCTS_QUERY,
+  //   variables: { search: '' },
+  // })
 
   return {
     props: {

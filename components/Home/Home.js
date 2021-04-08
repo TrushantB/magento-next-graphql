@@ -30,7 +30,7 @@ export const Home = () => {
         />
       </form>
 
-      <Products search={debouncedSearchQuery} />
+      <Products search={debouncedSearchQuery}/>
     </div>
   )
 }
